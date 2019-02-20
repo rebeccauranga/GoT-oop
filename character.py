@@ -18,6 +18,10 @@ class Character(): # class names start with capital letter and are one word
     # `someone=None` is a default argument 
     # `None` is == `null` in other languages (JavaScript)
     def greet(self, someone=None):
+        # When we assume that `someone` argument has a `.name` property
+        # this is an Object-Oriented Programming principle called
+        # polymorphism
+        # In Python, it's called "Duck Typing"
         if someone:
             return "Hello, %s, I am %s. I am awesome." % (someone.name, self.name,)
         else:

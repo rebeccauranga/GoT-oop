@@ -13,3 +13,5 @@ class Character(): # class names start with capital letter and are one word
         # In some other language, they use `this`
         self.name = new_name
         self.avatar = new_avatar
+        self.inventory = []
+        
